@@ -1,0 +1,10 @@
+.intro_wrapper-center {
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+@media screen and (max-width:1024px) {
+  .intro_wrapper-center {
+    max-width: 928px;
+  }
+}

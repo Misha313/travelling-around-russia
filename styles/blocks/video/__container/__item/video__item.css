@@ -1,0 +1,73 @@
+@import url('./__position_right/video__item_position_right.css');
+@import url('./__curtain/video__curtain.css');
+@import url('./__icon-play/video__icon-play.css');
+@import url('./__description-wrapper/video__description-wrapper.css');
+
+.video__item {
+  position: relative;
+  border-radius: 5px;
+  max-width: 583px;
+  min-width: 288px;
+  width: 100%;
+  max-height: 323px;
+  background-image: url('../../../../../images/video/__bg_left.png');
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.video__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.video__item:hover .video__curtain {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+
+
+.video__item:hover .curtain {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+
+@media screen and (max-width:1024px) {
+
+  .video__item {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .video__item {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width:580px) {
+
+  .video__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  .video__item:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:375px) {
+
+  .video__item {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width:320px) {
+
+  .video__item {
+    max-width: 282px;
+  }
+}

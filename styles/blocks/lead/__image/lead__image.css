@@ -1,0 +1,11 @@
+@import url('./__main-img/lead__main-img.css');
+@import url('./__way/lead__way.css');
+
+.lead__image {
+  max-width: 984px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 984px;
+}

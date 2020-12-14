@@ -1,0 +1,34 @@
+@import url('./__text-item/place__text-item.css');
+
+.place__text {
+  padding-left: 40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width:1024px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 28px;
+
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 27px;
+    padding: 0 16px;
+  }
+
+}

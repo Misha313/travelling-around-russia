@@ -1,0 +1,21 @@
+.video__icon-play {
+  padding: 30px;
+  position: relative;
+  z-index: 2;
+  align-self: flex-start;
+}
+
+@media screen and (max-width:768px) {
+
+
+
+  .video__icon-play {
+    padding: 24px 0 0 24px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .video__icon-play {
+    padding: 16px;
+  }
+}
