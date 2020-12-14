@@ -1,0 +1,14 @@
+@import url('./__text-item/__text-number/intro__text-number.css');
+@import url('./__text-item/intro__text-item.css');
+
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+
+@media screen and (max-width:768px) {
+  .intro__text {
+    padding-top: 24px;
+  }
+}

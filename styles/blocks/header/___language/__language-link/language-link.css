@@ -1,0 +1,21 @@
+@import url('./_text-decoration_underline/header__language-link_text-decoration_underline.css');
+
+.header__language-link {
+  color: white;
+  transition: ease-in .3s;
+}
+
+.header__language-link:hover {
+  opacity: 0.5;
+}
+
+.header__language-link:not(:last-child) {
+  margin-right: 18px;
+}
+
+@media screen and (max-width:375px) {
+  .header__language-link {
+    font-size: 18px;
+    line-height: 96.82%;
+  }
+}

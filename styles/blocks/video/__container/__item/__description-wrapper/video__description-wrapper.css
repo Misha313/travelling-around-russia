@@ -1,0 +1,25 @@
+@import url('./__duration/video__duration.css');
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
+
+.video__description-wrapper {
+  width: 100%;
+  padding: 30px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+@media screen and (max-width:768px) {
+
+  .video__description-wrapper {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width:320px) {
+
+  .video__description-wrapper {
+    padding: 16px;
+  }
+}

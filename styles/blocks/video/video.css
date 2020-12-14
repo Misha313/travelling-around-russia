@@ -1,0 +1,22 @@
+@import url('./__container/video__container.css');
+@import url('./_wrapper-center-wide/video_wrapper-center-wide.css');
+
+.video {
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width:768px) {
+  .video {
+    max-width: 720px;
+  }
+}
+
+
+@media screen and (max-width:375px) {
+  .video {
+    width: 100%;
+  }
+}

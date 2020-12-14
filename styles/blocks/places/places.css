@@ -1,0 +1,8 @@
+@import url('./__pace-item/paces__place-item.css');
+@import url('./_wrapper-center/places_wrapper-center.css');
+
+.places {
+  font-family: 'Inter', Arial, sans-serif;
+  padding-bottom: 102px;
+  padding: 16px;
+}

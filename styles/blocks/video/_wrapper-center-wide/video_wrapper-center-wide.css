@@ -1,0 +1,10 @@
+.video_wrapper-center-wide {
+  margin: 0 auto;
+  max-width: 1184px;
+}
+
+@media screen and (max-width:1024px) {
+  .video_wrapper-center-wide {
+    max-width: 928px;
+  }
+}

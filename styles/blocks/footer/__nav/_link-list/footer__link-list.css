@@ -1,0 +1,12 @@
+@import url('./__link/footer__link.css');
+
+.footer__link-list {
+  display: flex;
+}
+
+@media screen and (max-width:625px) {
+  .footer__link-list {
+    display: flex;
+    flex-direction: column;
+  }
+}

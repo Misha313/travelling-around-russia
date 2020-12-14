@@ -1,0 +1,12 @@
+@import url('./_wrapper-center/page_wrapper-center.css');
+
+.page {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  color: white;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
